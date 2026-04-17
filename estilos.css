@@ -1,0 +1,43 @@
+/* CSS DOCUMENT*/
+@charset "utf-8";
+
+@font-face {
+    font-family: "WorkSans Regular";
+    src: url(fuentes/Work_Sans/WorkSans-Regular.ttf) format(flex);
+    font-weight: normal;
+    font-style:normal
+}
+
+@font-face {
+    font-family: "WorkSans Bold";
+    src: url(fuentes/Work_Sans/WorkSans-Bold.ttf) format(truetype);
+    font-weight: bold;
+    font-size: normal;
+}
+
+@font-face {
+    font-family: "WorkSans Light";
+    src: url(fuentes/Work_Sans/WorkSans-Light.ttf) format(truetype);
+    font-weight: normal;
+    font-size: light;
+}
+
+@font-face {
+    font-family: "WorkSans Medium";
+    src: url(fuentes/Work_Sans/WorkSans-Medium.ttf) format(truetype);
+    font-weight: normal;
+    font-size: medium;
+}
+
+*{
+    font-family: "WorkSans", sans-serif;
+}
+
+/* Aca empiezan las aplicaciones*/
+
+h1{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font: weight 100px;
+  font-style: normal;
+}
