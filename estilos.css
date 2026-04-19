@@ -1,11 +1,12 @@
 /* CSS DOCUMENT*/
 @charset "utf-8";
+/*configuraciones generales*/
 
 @font-face {
     font-family: "WorkSans Regular";
-    src: url(fuentes/Work_Sans/WorkSans-Regular.ttf) format(flex);
+    src: url(fuentes/Work_Sans/WorkSans-Regular.ttf) format(truetype);
     font-weight: normal;
-    font-style:normal
+    font-style:normal;
 }
 
 @font-face {
@@ -29,8 +30,11 @@
     font-size: medium;
 }
 
-*{
-    font-family: "WorkSans", sans-serif;
+@font-face {
+    font-family: "Kangee";
+    src: url(fuentes/kangge/Kangge.ttf) format(truetype);
+    font-weight: normal;
+    font-style:normal;
 }
 
 /* Aca empiezan las aplicaciones*/
@@ -40,4 +44,20 @@ h1{
   font-optical-sizing: auto;
   font: weight 100px;
   font-style: normal;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+    background-color: #c9f2f2;
+}
+
+*{
+    margin: 0;
+}
+
+a{
+    font-family: 'Kangge'; sans-serif;
+    color: rgb(0,0,0);
+    font-size; 2.0(rem)
+    text-decoration: none;
 }
