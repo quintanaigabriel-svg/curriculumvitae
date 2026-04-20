@@ -61,7 +61,7 @@ h1 {
 
 h2 {
     font-family: 'WorkSans Regular', sans-serif;
-    color: rgb(237, 109, 11);
+    color: rgb(19, 103, 138);
     font-size: 2.1rem;
     line-height: 2rem;
     padding: 50px 40px 10px;
@@ -69,14 +69,14 @@ h2 {
 
 h3 {
     font-family: 'WorkSans Light', sans-serif;
-    color: rgb(196, 57, 29);
+    color: rgb(154, 235, 163);
     padding: 20px 41px 0px;
     font-size: 1.3rem;
 }
 
 h4 {
     font-family: 'WorkSans Light', sans-serif;
-    color: rgb(91, 29, 0);
+    color: rgb(0, 143, 140);
     margin: 20px 41px 0px;
     font-size: 1rem;
     justify-content: flex-end;
@@ -88,7 +88,7 @@ h4 {
 
 body{
     font-family: "IBM Plex Sans", sans-serif;
-    background-color:;
+    background: color #f2f2f2;;
 }
 
 a{
@@ -99,14 +99,14 @@ a{
 }
 
 a:hover{
-    color:rgb(221, 0, 255);
+    color:rgb(199, 255, 237);
 }
 
 nav{
     display: flex;
     flex-wrap: wrap;
     gap:50px;
-    background-color: black;
+    background-color: #008fbc;
 }
 
 p,
@@ -122,8 +122,9 @@ p {
 }
 
 .presentacion {
-    background-image: url(img/pintura.jpg);
+    background-image: url(img/presentacionimg.png);
     background-size: 600px;
+    background-repeat: repeat;
     min-height: 10vh;
     padding: 60px 70px;
     display: flex;
@@ -154,7 +155,7 @@ p {
 }
 
 header {
-    background-color: rgb(237, 109, 11);
+    background-color: #008fbc;
     padding: 10px 0px;
 }
 
@@ -191,7 +192,7 @@ footer {
 }
  
 .sintesis {
-    background-color: #ffeeac;
+    background-color: #d8ffd8;
     padding: 0px 10px 50px;
     flex-grow: 1;
     flex-shrink: 1;
