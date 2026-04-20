@@ -31,6 +31,20 @@
 }
 
 @font-face {
+    font-family: "WorkSans SemiBold";
+    src: url(fuentes/Work_Sans/WorkSans-SemiBold.ttf) format(truetype);
+    font-weight: normal;
+    font-size: medium;
+}
+
+@font-face {
+    font-family: "WorkSans SemiBoldItalic";
+    src: url(fuentes/Work_Sans/WorkSans-SemiBoldItalic.ttf) format(truetype);
+    font-weight: normal;
+    font-size: medium;
+}
+
+@font-face {
     font-family: "Kangee";
     src: url(fuentes/kangge/Kangge.ttf) format(truetype);
     font-weight: normal;
@@ -38,26 +52,185 @@
 }
 
 /* Aca empiezan las aplicaciones*/
-
-h1{
-  font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
-  font: weight 100px;
-  font-style: normal;
+h1 {
+    font-family: 'WorkSans Medium', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 1.6rem;
+    padding: 20px 40px 0px;
 }
 
-body {
-    font-family: "Work Sans", sans-serif;
-    background-color: #c9f2f2;
+h2 {
+    font-family: 'WorkSans Regular', sans-serif;
+    color: rgb(237, 109, 11);
+    font-size: 2.1rem;
+    line-height: 2rem;
+    padding: 50px 40px 10px;
+}
+
+h3 {
+    font-family: 'WorkSans Light', sans-serif;
+    color: rgb(196, 57, 29);
+    padding: 20px 41px 0px;
+    font-size: 1.3rem;
+}
+
+h4 {
+    font-family: 'WorkSans Light', sans-serif;
+    color: rgb(91, 29, 0);
+    margin: 20px 41px 0px;
+    font-size: 1rem;
+    justify-content: flex-end;
 }
 
 *{
-    margin: 0;
+    margin:0;
+}
+
+body{
+    font-family: "IBM Plex Sans", sans-serif;
+    background-color:;
 }
 
 a{
-    font-family: 'Kangge'; sans-serif;
-    color: rgb(0,0,0);
-    font-size; 2.0(rem)
+    font-family:'Kangee', sans-serif;
+    font-size:2.0rem;
+    color: rgb(255,255,255);
     text-decoration: none;
+}
+
+a:hover{
+    color:rgb(221, 0, 255);
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px;
+    background-color: black;
+}
+
+p,
+li {
+    list-style: none;
+    font-size: 0.9rem;
+    padding: 10px 40px 0px;
+    text-wrap: balance;
+}
+
+p {
+    font-family: "IBM Plex Sans Bold", sans-serif;
+}
+
+.presentacion {
+    background-image: url(img/pintura.jpg);
+    background-size: 600px;
+    min-height: 10vh;
+    padding: 60px 70px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px 30px 0px;
+}
+
+.cuerpo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.presentacion p {
+    font-family: 'WorkSans Semibold Italic', sans-serif;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    min-width: 200px;
+    text-wrap: auto;
+}
+
+.presentaciontexto {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;
+}
+
+header {
+    background-color: rgb(237, 109, 11);
+    padding: 10px 0px;
+}
+
+footer {
+    padding: 15px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+
+.encabezado {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.adobesuite {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 40px
+}
+
+.adobesuite p {
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+.logos {
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px 5px 5px 40px;
+    gap: 15px
+}
+ 
+.sintesis {
+    background-color: #ffeeac;
+    padding: 0px 10px 50px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100px;
+    margin: 30px
+}
+
+.experiencialaboral {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px 50px 0px;
+    flex-grow: 2;
+    flex-shrink: 2;
+    flex-basis: 600px;
+    justify-content: center;
+}
+
+.GreenDigital,
+.Imanias,
+.Winery,
+.SPG,
+.IRCI {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.facultad,
+.uxui,
+.html5,
+.Colegio {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+aside {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 25px 0px;
 }
